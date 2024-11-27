@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white"
+    android:baselineAligned="false"
+    tools:context=".Emojis">
+
+
+    <ScrollView
+        android:id="@+id/emojiSV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/cold_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/cold_face_svgrepo_com" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/crying_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/crying_face_svgrepo_com" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/face_screaming"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/face_screaming_in_fear_svgrepo_com" />
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/face_with_symbols"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/face_with_symbols_on_mouth_svgrepo_com" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/fearful_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/fearful_face_svgrepo_com" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/hot_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/hot_face_svgrepo_com" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/hugging_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/hugging_face_svgrepo_com" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/pleading_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/pleading_face_svgrepo_com" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/pouting_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/pouting_face_svgrepo_com" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/rolling_on_the_floor"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/rolling_on_the_floor_laughing_svgrepo_com" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/shushing_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/shushing_face_svgrepo_com" />
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/sleeping_face"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/sleeping_face_svgrepo_com" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/upside_down"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/upside_down_face_svgrepo_com" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/smiling_face_with_heart_eyes"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/smiling_face_with_heart_eyes_svgrepo_com" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space12"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/smiling_face_with_sunglasses"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/off_white"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/smiling_face_with_sunglasses_svgrepo_com" />
+
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/smiling_face_with_tear"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/primary_baby_blue"
+                    android:elevation="@dimen/space12"
+                    android:src="@drawable/smiling_face_with_tear_svgrepo_com" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
